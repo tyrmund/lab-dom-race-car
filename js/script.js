@@ -51,4 +51,13 @@ window.onload = function () {
     game = new Game()
     game.start()
   }
+
+  restartButton.addEventListener('click', () => {
+    restartGame()
+  })
+
+  function restartGame() {
+    location.reload()
+  }
+
 }

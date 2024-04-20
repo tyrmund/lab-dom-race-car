@@ -96,15 +96,6 @@ class Game {
         endScreen.style.display = 'block'
         this.gameScreen.style.display = 'none'
 
-        const restartBtn = document.querySelector('#restart-button')
-        restartBtn.addEventListener('click', () => {
-            this.restartGame()
-        })
-
-    }
-
-    restartGame() {
-        location.reload()
     }
 
     updateStats() {
